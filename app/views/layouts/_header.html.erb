@@ -1,0 +1,16 @@
+<!-- This HTML was previously in the application layout. Moved here to reduce clutter -->
+
+<header class="navbar navbar-fixed-top navbar-inverse">    <!-- Bootstrap css classes -->
+  <div class="navbar-inner">
+    <div class="container">
+      <%= link_to "sample app", '#', id: "logo" %>
+      <nav>
+        <ul class="nav pull-right">
+          <li><%= link_to "Home",    root_path %></li>
+          <li><%= link_to "Help",    help_path %></li>
+          <li><%= link_to "Sign in", '#' %></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
